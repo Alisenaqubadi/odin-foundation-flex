@@ -12,12 +12,13 @@ body{
 }
 
 .header{
-    background-color: black;
+    background-color: #1F2937;
     flex: 1;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 25px;
 }
 
 .header-logo{
@@ -50,6 +51,7 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    padding: 20px;
 }
 
 .part{
@@ -57,11 +59,13 @@ a{
 }
 
 .first{
-    background-color: red;
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10%;
+    color: white;
+    padding-bottom: 8%;
 }
 
 .image{
@@ -89,13 +93,82 @@ button{
 }
 
 .second{
-    background-color: green;
+    background-color: white;
+    padding: 40px;
+}
+
+.big{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+#somerandom{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.photos{
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+.underimg{
+    margin-left: 25%;
 }
 
 .third{
-    background-color: blue;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 40px;
+}
+
+.textlor{
+    margin-top: 4%;
+    width: 60%;
+    font-size: x-large;
+}
+
+.haha{
+    display: flex;
+    justify-content: end;
+    gap: 10%;
+}
+
+.textnexttolor{
+    font-size: large;
+    font-weight: bolder;
 }
 
 .fourth{
-    background-color: yellow;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.blue{
+    background-color: #3882F6;
+    width: 70%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    margin: 8% 0 8% 0;
+    border-radius: 8px;
+    gap: 15%;
+}
+
+h3{
+    margin-bottom: 1px;
+    color: azure;
+}
+
+p{
+    margin-top: 1px;
+    color: azure;
 }
